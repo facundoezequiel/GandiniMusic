@@ -98,6 +98,11 @@ const HomeContainer = styled.div`
         text-align: right;
     }
 
+    /* Links Buttons */
+    #LinksSection {
+        display: flex;
+        flex-wrap: wrap;
+    }
 `;
 
 export { HomeContainer };
