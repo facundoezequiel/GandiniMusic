@@ -6,6 +6,13 @@ const GlobalStyle = createGlobalStyle`
     /* Colors */
     --black: ${Colors.black.toCSS()};
     --white: ${Colors.white.toCSS()};
+    --youTubeRed: ${Colors.youTubeRed.toCSS()};
+    --twitchPurple: ${Colors.twitchPurple.toCSS()};
+    --spotifyGreen: ${Colors.spotifyGreen.toCSS()};
+    --bandcampBlue: ${Colors.bandcampBlue.toCSS()};
+    --soundcloudOrange: ${Colors.soundcloudOrange.toCSS()};
+    --mixcloudBlue: ${Colors.mixcloudBlue.toCSS()};
+    --beatportGreen: ${Colors.beatportGreen.toCSS()};
     /* Fonts */
     --poppins: "poppins" , -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }

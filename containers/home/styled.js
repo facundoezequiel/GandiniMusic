@@ -12,17 +12,43 @@ const HomeContainer = styled.div`
         background-color: gray;
         display: flex;
         justify-content: center;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        flex-wrap: wrap;
+        flex-direction: row;
     }
 
-    /* Logo Gandini Center */
+    #backgroundSection {
+        width: 100%;
+        height: 93%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+
+    /* Logo Gandini Center 
     #gandiniLogo {
         width: 55%;
         padding-top: 8%;
         display: block;
         margin: 0 auto;
+    } */
+
+    #newsSection {
+        width: 100%;
+        background-color: var(--black);
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        height: 7%;
+    }
+
+    /* News */
+    #newsSection span {
+        font-weight: 800;
+        font-family: var(--poppins);
+        font-size: 1em;
+        letter-spacing: 0.5px;
+        color: var(--white);
+        text-align: center;
     }
 
     /* RIGHT ZONE */
@@ -47,13 +73,6 @@ const HomeContainer = styled.div`
         margin: 0 auto;
     }
 
-    /* #CirclesDecoration {
-        position: absolute;
-        top: 73%;
-        left: 69%;
-        overflow: hidden;
-    } */
-
     /* Title */
     #TitleSection {
         display: flex;
@@ -62,7 +81,7 @@ const HomeContainer = styled.div`
     }
 
     #Title h1 {
-        color: #FFFFFF;
+        color: var(--black);
         font-weight: 800;
         font-family: var(--poppins);
         font-size: 2em;
@@ -76,32 +95,54 @@ const HomeContainer = styled.div`
     }
 
     #Title p {
-        color: #FFFFFF;
+        color: var(--black);
         font-family: var(--poppins);
         padding-top: 2%;
         text-align: left;
     }
 
-    /* Lenguaje Buttons */
-    #Lenguaje {
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    #Lenguaje a {
-        display: block;
-        margin-left: 15%;
-        cursor: pointer;
-        color: #FFFFFF;
-        font-family: var(--poppins);
-        letter-spacing: 1.5px;
-        text-align: right;
-    }
-
     /* Links Buttons */
     #LinksSection {
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
+        margin-top: 5%;
+    }
+
+    #LinksSection h1 {
+        width: 100%;
+        color: var(--black);
+        font-family: var(--poppins);
+        text-align: left;
+    }
+
+    #ButtonsContainer {
+        margin-top: 3%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* Buttons Hover */
+    #youtube:hover {
+        background-color: var(--youTubeRed)!important;
+    }
+    #twitch:hover {
+        background-color: var(--twitchPurple)!important;
+    }
+    #spotify:hover {
+        background-color: var(--spotifyGreen)!important;
+    }
+    #bandcamp:hover {
+        background-color: var(--bandcampBlue)!important;
+    }
+    #soundcloud:hover {
+        background-color: var(--soundcloudOrange)!important;
+    }
+    #mixcloud:hover {
+        background-color: var(--mixcloudBlue)!important;
+    }
+    #beatport:hover {
+        background-color: var(--beatportGreen)!important;
     }
 `;
 
