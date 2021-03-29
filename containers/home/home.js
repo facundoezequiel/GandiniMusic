@@ -2,6 +2,7 @@ import React from "react";
 import { HomeContainer } from "./styled";
 import LinkButton from "../../components/linksButtons/index";
 import ReactTyped from "react-typed";
+import { default as NextLink } from "next/link";
 
 function Home() {
   return (
@@ -109,6 +110,13 @@ function Home() {
                 platform="beatport"
               />
             </div>
+          </div>
+          <div id="footerContainer">
+            <a href="/Biografia/Biografia.txt" download>BIOGRAFÍA</a>
+            <NextLink href="https://www.dropbox.com/s/wqu0yu070a0j3ye/Gandini%20Presskit.zip?dl=0">
+              <a target="blank">PRESS KIT</a>
+            </NextLink>
+            <p>GANDINI MUSIC 2021</p>
           </div>
         </div>
       </section>

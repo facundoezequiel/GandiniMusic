@@ -144,6 +144,21 @@ const HomeContainer = styled.div`
     #beatport:hover {
         background-color: var(--beatportGreen)!important;
     }
+
+    /* Footer */
+    #footerContainer {
+        margin-top: 5%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #footerContainer a {
+        color: var(--black);
+        font-family: var(--poppins);
+        text-align: left;
+    }
 `;
 
 export { HomeContainer };
