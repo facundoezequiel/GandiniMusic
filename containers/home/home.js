@@ -1,4 +1,7 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faFacebookSquare, faInstagram, faTwitter, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { HomeContainer } from "./styled";
 import LinkButton from "../../components/linksButtons/index";
 import ReactTyped from "react-typed";
@@ -12,7 +15,7 @@ function Home() {
         <div
           id="backgroundSection"
           style={{
-            backgroundImage: `url(${"/Images/BackgroundRight.jpg"})`,
+            backgroundImage: `url(${"/Images/BackgroundLeft.jpg"})`,
           }}
         >
           {/* Logo Gandini Center 
@@ -39,7 +42,11 @@ function Home() {
         </div>
       </section>
       {/* RIGHT ZONE */}
-      <section className="rightZone">
+      <section className="rightZone"
+        style={{
+          backgroundImage: `url(${"/Images/BackgroundRight.png"})`,
+        }}
+      >
         <div id="rightZoneContainer">
           {/* Title Section */}
           <div id="TitleSection">
@@ -52,6 +59,27 @@ function Home() {
                 DJ / Musicalizador / Productor / Editor / Remixer / Radio Host /
                 Ableton Teacher
               </p>
+              {/* Social Media */}
+              <div id="socialMediaContainer">
+                {/* Instagram */}
+                <NextLink href="https://www.instagram.com/gandinimusic/">
+                  <a target="blank" id="instagram">
+                    <FontAwesomeIcon icon={faInstagram} />
+                  </a>
+                </NextLink>
+                {/* Facebook */}
+                <NextLink href="https://www.facebook.com/gandinimusic">
+                  <a target="blank" id="facebook">
+                    <FontAwesomeIcon icon={faFacebookSquare} />
+                  </a>
+                </NextLink>
+                {/* Twitter */}
+                <NextLink href="https://twitter.com/gandinimusic">
+                  <a target="blank" id="twitter">
+                    <FontAwesomeIcon icon={faTwitter} />
+                  </a>
+                </NextLink>
+              </div>
             </div>
           </div>
           {/* Links Section */}
@@ -111,12 +139,33 @@ function Home() {
               />
             </div>
           </div>
+          {/* Footer */}
           <div id="footerContainer">
-            <a href="/Biografia/Biografia.txt" download>BIOGRAFÍA</a>
+            {/* Contacto */}
+            <div id="contactoContainer">
+              {/* WhatsApp */}
+              <NextLink href="https://api.whatsapp.com/send?phone=5491141787425">
+                <a target="blank" id="whatsapp">
+                  <FontAwesomeIcon icon={faWhatsapp} />
+                </a>
+              </NextLink>
+              {/* Correo */}
+              <NextLink href="mailto:gandinimusic@gmail.com">
+                <a target="_self" id="mail">
+                  <FontAwesomeIcon icon={faEnvelope} />
+                </a>
+              </NextLink>
+            </div>
+            {/* Descargar Biografia */}
+            <a href="/Biografia/Biografia.txt" id="biografia" download>
+              BIOGRAFÍA
+            </a>
+            {/* Press Kit */}
             <NextLink href="https://www.dropbox.com/s/wqu0yu070a0j3ye/Gandini%20Presskit.zip?dl=0">
-              <a target="blank">PRESS KIT</a>
+              <a target="blank" id="presskit">PRESS KIT</a>
             </NextLink>
-            <p>GANDINI MUSIC 2021</p>
+            {/* Copyright */}
+            <p>GANDINI MUSIC 2021 ©</p>
           </div>
         </div>
       </section>

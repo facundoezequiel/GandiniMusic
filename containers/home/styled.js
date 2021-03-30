@@ -54,17 +54,13 @@ const HomeContainer = styled.div`
     /* RIGHT ZONE */
     .rightZone {
         width: 50%; 	
-        background: rgba(0,0,0,1);
-        background: -moz-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(77,77,77,1) 100%);
-        background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(77,77,77,1)));
-        background: -webkit-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(77,77,77,1) 100%);
-        background: -o-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(77,77,77,1) 100%);
-        background: -ms-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(77,77,77,1) 100%);
-        background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(77,77,77,1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#4d4d4d', GradientType=1 );
+        background-color: gray;
         display: flex;
         justify-content: center;
         position: relative;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     #rightZoneContainer {
@@ -99,6 +95,27 @@ const HomeContainer = styled.div`
         font-family: var(--poppins);
         padding-top: 2%;
         text-align: left;
+    }
+
+    #socialMediaContainer {
+        margin-top: 3%;
+    }
+
+    #socialMediaContainer a {
+        margin-right: 1.8%;
+        font-size: 1.5em;
+        transition: 0.2s all;
+        color: var(--black);
+    }
+
+    #instagram:hover {
+        color: var(--instagramPink)!important;
+    }
+    #facebook:hover {
+        color: var(--facebookBlue)!important;
+    }
+    #twitter:hover {
+        color: var(--twitterBlue)!important;
     }
 
     /* Links Buttons */
@@ -151,13 +168,40 @@ const HomeContainer = styled.div`
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: left;
+        align-items: center;
     }
 
-    #footerContainer a {
+    #footerContainer a, #footerContainer p {
         color: var(--black);
         font-family: var(--poppins);
         text-align: left;
+    }
+
+    #biografia, #presskit {
+        margin-right: 8%;
+    }
+
+    /* Contacto */
+    #contactoContainer {
+        display: flex;
+        margin-right: 8%;
+        align-items: center;
+    }
+
+    #contactoContainer a {
+        margin-right: 25%;
+        font-size: 1.5em;
+        transition: 0.2s all;
+        color: var(--black);
+    }
+
+    /* Contacto Hover */
+    #whatsapp:hover {
+        color: var(--whatsappGreen)!important;
+    }
+    #mail:hover {
+        color: var(--red)!important;
     }
 `;
 

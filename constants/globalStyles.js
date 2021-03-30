@@ -6,6 +6,7 @@ const GlobalStyle = createGlobalStyle`
     /* Colors */
     --black: ${Colors.black.toCSS()};
     --white: ${Colors.white.toCSS()};
+    --red: ${Colors.red.toCSS()};
     --youTubeRed: ${Colors.youTubeRed.toCSS()};
     --twitchPurple: ${Colors.twitchPurple.toCSS()};
     --spotifyGreen: ${Colors.spotifyGreen.toCSS()};
@@ -13,6 +14,10 @@ const GlobalStyle = createGlobalStyle`
     --soundcloudOrange: ${Colors.soundcloudOrange.toCSS()};
     --mixcloudBlue: ${Colors.mixcloudBlue.toCSS()};
     --beatportGreen: ${Colors.beatportGreen.toCSS()};
+    --instagramPink: ${Colors.instagramPink.toCSS()};
+    --facebookBlue: ${Colors.facebookBlue.toCSS()};
+    --twitterBlue: ${Colors.twitterBlue.toCSS()};
+    --whatsappGreen: ${Colors.whatsappGreen.toCSS()};
     /* Fonts */
     --poppins: "poppins" , -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
