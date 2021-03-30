@@ -9,8 +9,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { HomeContainer } from "./styled";
 import LinkButton from "../../components/linksButtons/index";
+import MediaPlayer from "../../components/mediaPlayer/index";
 import ReactTyped from "react-typed";
-import ReactPlayer from "react-player";
 import { default as NextLink } from "next/link";
 
 function Home() {
@@ -91,11 +91,10 @@ function Home() {
           </div>
           {/* Player & Flyer Section */}
           <div id="playerFlyerContainer">
-            {/* YouTube Player */}
-            <ReactPlayer
-              controls="true"
-              url="https://www.youtube.com/watch?v=pnPfgjTxIZU"
-            />
+            <div id="playerContainer">
+              {/* YouTube Player */}
+              <MediaPlayer link="https://www.youtube.com/watch?v=pnPfgjTxIZU" />
+            </div>
           </div>
           {/* Links Section */}
           <div id="LinksSection">

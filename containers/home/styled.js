@@ -56,7 +56,7 @@ const HomeContainer = styled.div`
         width: 50%; 	
         background-color: gray;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         position: relative;
         background-position: right;
         background-repeat: no-repeat;
@@ -65,7 +65,7 @@ const HomeContainer = styled.div`
 
     #rightZoneContainer {
         width: 76%;
-        padding: 4% 0% 4% 0%;
+        padding: 8% 0% 8% 0%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -126,6 +126,19 @@ const HomeContainer = styled.div`
     #playerFlyerContainer {
         width: 100%;
         display: flex;
+        justify-content: flex-start;
+    }
+
+    #playerContainer {
+        position: relative;
+        padding-top: 39.40%;
+        width: 70%;
+    }
+
+    #reactPlayer {
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 
     /* Links Buttons */
@@ -133,7 +146,6 @@ const HomeContainer = styled.div`
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        margin-top: 5%;
     }
 
     #LinksSection h1 {
@@ -175,7 +187,6 @@ const HomeContainer = styled.div`
 
     /* Footer */
     #footerContainer {
-        margin-top: 5%;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
