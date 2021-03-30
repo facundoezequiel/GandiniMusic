@@ -14,7 +14,7 @@ const Colors = {
   instagramPink: Color("#E1306C"),
   facebookBlue: Color("#3b5998"),
   twitterBlue: Color("#00acee"),
-  whatsappGreen: Color("#25d366"),
+  whatsappGreen: Color("#075e54"),
 };
 
 export default Colors;

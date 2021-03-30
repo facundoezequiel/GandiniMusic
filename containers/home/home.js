@@ -1,10 +1,16 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import { faFacebookSquare, faInstagram, faTwitter, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFacebookSquare,
+  faInstagram,
+  faTwitter,
+  faWhatsapp,
+} from "@fortawesome/free-brands-svg-icons";
 import { HomeContainer } from "./styled";
 import LinkButton from "../../components/linksButtons/index";
 import ReactTyped from "react-typed";
+import ReactPlayer from "react-player";
 import { default as NextLink } from "next/link";
 
 function Home() {
@@ -42,7 +48,8 @@ function Home() {
         </div>
       </section>
       {/* RIGHT ZONE */}
-      <section className="rightZone"
+      <section
+        className="rightZone"
         style={{
           backgroundImage: `url(${"/Images/BackgroundRight.png"})`,
         }}
@@ -81,6 +88,14 @@ function Home() {
                 </NextLink>
               </div>
             </div>
+          </div>
+          {/* Player & Flyer Section */}
+          <div id="playerFlyerContainer">
+            {/* YouTube Player */}
+            <ReactPlayer
+              controls="true"
+              url="https://www.youtube.com/watch?v=pnPfgjTxIZU"
+            />
           </div>
           {/* Links Section */}
           <div id="LinksSection">
@@ -162,7 +177,9 @@ function Home() {
             </a>
             {/* Press Kit */}
             <NextLink href="https://www.dropbox.com/s/wqu0yu070a0j3ye/Gandini%20Presskit.zip?dl=0">
-              <a target="blank" id="presskit">PRESS KIT</a>
+              <a target="blank" id="presskit">
+                PRESS KIT
+              </a>
             </NextLink>
             {/* Copyright */}
             <p>GANDINI MUSIC 2021 ©</p>

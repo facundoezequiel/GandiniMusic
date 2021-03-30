@@ -15,7 +15,7 @@ function LinkButton({
         cursor: "pointer",
         display: "flex",
         margin: "2% 3% 1% 0%",
-        padding: "1.5% 2.6% 1.5% 2.6%",
+        padding: "0% 2.6% 0% 2.6%",
         borderRadius: "200px 200px 200px 200px",
         mozBorderRadius: "200px 200px 200px 200px",
         webkitBorderRadius: "200px 200px 200px 200px",

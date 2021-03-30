@@ -65,8 +65,12 @@ const HomeContainer = styled.div`
 
     #rightZoneContainer {
         width: 76%;
-        padding-top: 8%;
+        padding: 4% 0% 4% 0%;
         margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
     }
 
     /* Title */
@@ -118,6 +122,12 @@ const HomeContainer = styled.div`
         color: var(--twitterBlue)!important;
     }
 
+    /* Player & Flyer Section */
+    #playerFlyerContainer {
+        width: 100%;
+        display: flex;
+    }
+
     /* Links Buttons */
     #LinksSection {
         width: 100%;
@@ -135,6 +145,7 @@ const HomeContainer = styled.div`
 
     #ButtonsContainer {
         margin-top: 3%;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
     }
