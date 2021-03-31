@@ -37,11 +37,11 @@ const GlobalStyle = createGlobalStyle`
     ::-moz-selection {
       /* Code for Firefox */
       color: var(--white);
-      background: #00fbff;
+      background: var(--red);
     }
     ::selection {
-      color: var(--black);
-      background: #02e3ff;
+      color: var(--white);
+      background: var(--red);
     }
     
 `;

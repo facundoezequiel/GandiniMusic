@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { breakpoints } from "../../constants/media";
 
 const HomeContainer = styled.div`
     width: 100%;
@@ -65,7 +66,7 @@ const HomeContainer = styled.div`
 
     #rightZoneContainer {
         width: 76%;
-        padding: 8% 0% 8% 0%;
+        padding: 13% 0% 13% 0%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -162,6 +163,11 @@ const HomeContainer = styled.div`
         flex-wrap: wrap;
     }
 
+    #ButtonsContainer a {
+        min-height: 44.2px;
+        justify-content: center;
+    }
+
     /* Buttons Hover */
     #youtube:hover {
         background-color: var(--youTubeRed)!important;
@@ -224,6 +230,103 @@ const HomeContainer = styled.div`
     }
     #mail:hover {
         color: var(--red)!important;
+    }
+
+    /* RESPONSIVE */
+
+    /* ---- 2560px UltraWide ---- */
+    @media (max-width: ${breakpoints.monitorUltraWide}) {
+        /* RIGHT ZONE */
+        #rightZoneContainer {
+            padding: 5% 0% 5% 0%;
+        }
+        
+        /* Player & Flyer Section */
+        #playerContainer {
+            padding-top: 34.875%;
+            width: 62%;
+        }
+
+        /* Links Buttons */
+        #LinksSection {
+            justify-content: flex-start;
+        }
+
+        #ButtonsContainer {
+            width: 70%;
+        }
+    }
+
+    /* ---- 1710px Window ---- */
+    @media (max-width: ${breakpoints.window1710}) {
+        /* RIGHT ZONE */
+        #rightZoneContainer {
+            padding: 8% 0% 8% 0%;
+        }
+
+        /* Title */
+        #Title h1 {
+            font-size: 1.7em;
+            letter-spacing: 0.5px;
+        }
+
+        #Title p {
+            font-size: 0.9em;
+            padding-top: 1.5%;
+        }
+
+        #socialMediaContainer a {
+            font-size: 1.3em;
+        }
+        
+        /* Player & Flyer Section */
+        #playerContainer {
+            padding-top: 39.40%;
+            width: 70%;
+        }
+
+        /* Links Buttons */
+        #LinksSection {
+            justify-content: flex-start;
+        }
+
+        #LinksSection h1 {
+            font-size: 1.3em;
+            letter-spacing: 0.5px;
+        }
+
+        #ButtonsContainer {
+            width: 80%;
+        }
+
+        #ButtonsContainer a {
+            min-height: 38.2px!important;
+            justify-content: center;
+        }
+
+        #ButtonsContainer a img{
+            width: 80%;
+            display: block;
+        }
+
+        #footerContainer p {
+            font-size: 0.9em;
+        }
+
+        #biografia, #presskit {
+            margin-right: 5%;
+            font-size: 0.9em;
+        }
+
+
+        /* Contacto */
+        #contactoContainer {
+            margin-right: 5%;
+        }
+
+        #contactoContainer a {
+            font-size: 1.3em;
+        }
     }
 `;
 

@@ -20,7 +20,6 @@ function LinkButton({
         mozBorderRadius: "200px 200px 200px 200px",
         webkitBorderRadius: "200px 200px 200px 200px",
         border: "0px solid #000000",
-        minHeight: "44.2px"
     };
     return (
         <NextLink href={link}>
