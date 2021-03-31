@@ -208,6 +208,11 @@ const HomeContainer = styled.div`
 
     #biografia, #presskit {
         margin-right: 8%;
+        transition: 0.2s all;
+    }
+
+    #biografia:hover, #presskit:hover {
+        color: var(--red);
     }
 
     /* Contacto */
