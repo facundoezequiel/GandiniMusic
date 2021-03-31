@@ -107,8 +107,8 @@ const HomeContainer = styled.div`
     }
 
     #socialMediaContainer a {
-        margin-right: 1.8%;
-        font-size: 1.5em;
+        margin-right: 7%;
+        font-size: 2.3em;
         transition: 0.2s all;
         color: var(--black);
     }
@@ -200,33 +200,19 @@ const HomeContainer = styled.div`
         align-items: center;
     }
 
-    #footerContainer a, #footerContainer p {
+    #footerContainer a {
         color: var(--black);
         font-family: var(--poppins);
         text-align: left;
     }
 
-    #biografia, #presskit {
+    #biografia, #presskit, #copyright {
         margin-right: 8%;
         transition: 0.2s all;
     }
 
-    #biografia:hover, #presskit:hover {
+    #biografia:hover, #presskit:hover, #copyright:hover {
         color: var(--red);
-    }
-
-    /* Contacto */
-    #contactoContainer {
-        display: flex;
-        margin-right: 8%;
-        align-items: center;
-    }
-
-    #contactoContainer a {
-        margin-right: 25%;
-        font-size: 1.5em;
-        transition: 0.2s all;
-        color: var(--black);
     }
 
     /* Contacto Hover */
@@ -262,11 +248,25 @@ const HomeContainer = styled.div`
         }
     }
 
+     /* ---- 1920px Full HD ---- */
+     @media (max-width: ${breakpoints.monitorFullHD}) {
+        /* RIGHT ZONE */
+        #rightZoneContainer {
+            padding: 12% 0% 12% 0%;
+        }
+
+        /* Player & Flyer Section */
+        #playerContainer {
+            padding-top: 39.40%;
+            width: 70%;
+        }
+    }
+
     /* ---- 1710px Window ---- */
     @media (max-width: ${breakpoints.window1710}) {
         /* RIGHT ZONE */
         #rightZoneContainer {
-            padding: 8% 0% 8% 0%;
+            padding: 10% 0% 10% 0%;
         }
 
         /* Title */
@@ -321,16 +321,6 @@ const HomeContainer = styled.div`
         #biografia, #presskit {
             margin-right: 5%;
             font-size: 0.9em;
-        }
-
-
-        /* Contacto */
-        #contactoContainer {
-            margin-right: 5%;
-        }
-
-        #contactoContainer a {
-            font-size: 1.3em;
         }
     }
 `;

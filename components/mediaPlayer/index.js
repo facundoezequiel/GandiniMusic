@@ -10,6 +10,7 @@ function MediaPlayer({ link, ...props }) {
       height="100%"
       url={link}
       id="reactPlayer"
+      volume="0"
     />
   );
 }

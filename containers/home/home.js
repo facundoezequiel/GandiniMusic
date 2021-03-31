@@ -86,6 +86,18 @@ function Home() {
                     <FontAwesomeIcon icon={faTwitter} />
                   </a>
                 </NextLink>
+                {/* WhatsApp */}
+                <NextLink href="https://api.whatsapp.com/send?phone=5491141787425">
+                  <a target="blank" id="whatsapp">
+                    <FontAwesomeIcon icon={faWhatsapp} />
+                  </a>
+                </NextLink>
+                {/* Correo */}
+                <NextLink href="mailto:gandinimusic@gmail.com">
+                  <a target="_self" id="mail">
+                    <FontAwesomeIcon icon={faEnvelope} />
+                  </a>
+                </NextLink>
               </div>
             </div>
           </div>
@@ -155,33 +167,24 @@ function Home() {
           </div>
           {/* Footer */}
           <div id="footerContainer">
-            {/* Contacto */}
-            <div id="contactoContainer">
-              {/* WhatsApp */}
-              <NextLink href="https://api.whatsapp.com/send?phone=5491141787425">
-                <a target="blank" id="whatsapp">
-                  <FontAwesomeIcon icon={faWhatsapp} />
-                </a>
-              </NextLink>
-              {/* Correo */}
-              <NextLink href="mailto:gandinimusic@gmail.com">
-                <a target="_self" id="mail">
-                  <FontAwesomeIcon icon={faEnvelope} />
-                </a>
-              </NextLink>
-            </div>
             {/* Descargar Biografia */}
-            <a href="/Biografia/Biografia.txt" id="biografia" download>
-              BIOGRAFÍA
-            </a>
-            {/* Press Kit */}
             <NextLink href="https://www.dropbox.com/s/wqu0yu070a0j3ye/Gandini%20Presskit.zip?dl=0">
+              <a target="blank" id="biografia">
+                BIOGRAFÍA
+              </a>
+            </NextLink>
+            {/* Press Kit */}
+            <NextLink href="https://www.dropbox.com/sh/o7p4m8lc9hfmkla/AAB6_xneyZ94DWHyi7gc100wa?dl=0">
               <a target="blank" id="presskit">
                 PRESS KIT
               </a>
             </NextLink>
             {/* Copyright */}
-            <p>GANDINI MUSIC 2021 ©</p>
+            <NextLink href="https://youtu.be/FGI8a60HUqY">
+              <a target="blank" id="copyright">
+                GANDINI MUSIC 2021 ©
+              </a>
+            </NextLink>
           </div>
         </div>
       </section>
