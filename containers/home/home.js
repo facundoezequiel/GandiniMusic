@@ -12,10 +12,14 @@ import LinkButton from "../../components/linksButtons/index";
 import MediaPlayer from "../../components/mediaPlayer/index";
 import ReactTyped from "react-typed";
 import { default as NextLink } from "next/link";
+import { Helmet } from "react-helmet";
 
 function Home() {
   return (
     <HomeContainer>
+      <Helmet>
+        
+      </Helmet>
       {/* LEFT ZONE */}
       <section className="leftZone">
         <div

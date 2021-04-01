@@ -122,6 +122,12 @@ const HomeContainer = styled.div`
     #twitter:hover {
         color: var(--twitterBlue)!important;
     }
+    #whatsapp:hover {
+        color: var(--whatsappGreen)!important;
+    }
+    #mail:hover {
+        color: var(--red)!important;
+    }
 
     /* Player & Flyer Section */
     #playerFlyerContainer {
@@ -215,14 +221,6 @@ const HomeContainer = styled.div`
         color: var(--red);
     }
 
-    /* Contacto Hover */
-    #whatsapp:hover {
-        color: var(--whatsappGreen)!important;
-    }
-    #mail:hover {
-        color: var(--red)!important;
-    }
-
     /* RESPONSIVE */
 
     /* ---- 2560px UltraWide ---- */
@@ -281,7 +279,8 @@ const HomeContainer = styled.div`
         }
 
         #socialMediaContainer a {
-            font-size: 1.3em;
+            font-size: 1.7em;
+            margin-right: 6%;
         }
         
         /* Player & Flyer Section */
@@ -314,13 +313,72 @@ const HomeContainer = styled.div`
             display: block;
         }
 
-        #footerContainer p {
-            font-size: 0.9em;
-        }
-
-        #biografia, #presskit {
+        #biografia, #presskit, #copyright {
             margin-right: 5%;
             font-size: 0.9em;
+        }
+    }
+
+    /* ---- 1366px Monitor Estandar ---- */
+    @media (max-width: ${breakpoints.monitorEstandar}) {
+        /* News */
+        #newsSection span {
+            font-size: 0.85em;
+            letter-spacing: 0.3px;
+        }
+
+        /* RIGHT ZONE */
+        #rightZoneContainer {
+            padding: 11% 0% 11% 0%;
+        }
+
+        /* Title */
+        #Title h1 {
+            font-size: 1.5em;
+            letter-spacing: 0.3px;
+        }
+
+        #Title p {
+            font-size: 0.72em;
+            padding-top: 2%;
+        }
+
+        #socialMediaContainer a {
+            font-size: 1.5em;
+            margin-right: 6%;
+        }
+
+        /* Player & Flyer Section */
+        #playerContainer {
+            padding-top: 39.40%;
+            width: 70%;
+        }
+
+        /* Links Buttons */
+        #LinksSection h1 {
+            font-size: 1.1em;
+            letter-spacing: 0.3px;
+        }
+
+        #ButtonsContainer {
+            width: 90%;
+        }
+
+        #ButtonsContainer a {
+            min-height: 32.2px!important;
+            justify-content: center;
+            padding: 0% 1.4% 0% 1.4%!important;
+            margin-right: 2%!important;
+        }
+
+        #ButtonsContainer a img{
+            width: 70%;
+            display: block;
+        }
+
+        #biografia, #presskit, #copyright {
+            margin-right: 10%;
+            font-size: 0.72em;
         }
     }
 `;
