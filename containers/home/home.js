@@ -172,7 +172,7 @@ function Home() {
           {/* Footer */}
           <div id="footerContainer">
             {/* Descargar Biografia */}
-            <NextLink href="https://www.dropbox.com/s/wqu0yu070a0j3ye/Gandini%20Presskit.zip?dl=0">
+            <NextLink href="https://www.dropbox.com/s/delz5kkav5j2vk6/Gandini%20Biograf%C3%ADa%202020.pdf?dl=0">
               <a target="blank" id="biografia">
                 BIOGRAFÍA
               </a>
