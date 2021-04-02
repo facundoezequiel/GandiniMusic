@@ -323,12 +323,12 @@ const HomeContainer = styled.div`
     @media (max-width: ${breakpoints.window1624}) {
         /* LEFT ZONE */
         #backgroundSection {
-            height: 94.5%;
+            height: 94%;
         }
 
         /* News */
         #newsSection {
-            height: 5.5%;
+            height: 5%;
         }
 
         #newsSection span {
