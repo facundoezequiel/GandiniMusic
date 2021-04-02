@@ -381,6 +381,94 @@ const HomeContainer = styled.div`
             font-size: 0.72em;
         }
     }
+
+    /* ---- 1202px Monitor Estandar Small ---- */
+    @media (max-width: ${breakpoints.monitorEstandarSmall}) {
+        /* LEFT ZONE */
+        #backgroundSection {
+            height: 94.5%;
+        }
+
+        /* News */
+        #newsSection {
+            height: 5.5%;
+        }
+
+        #newsSection span {
+            font-size: 0.75em;
+        }
+
+        /* RIGHT ZONE */
+        #rightZoneContainer {
+            padding: 12% 0% 12% 0%;
+        }
+
+        /* Title */
+        #Title h1 {
+            font-size: 1.2em;
+            letter-spacing: 0.3px;
+        }
+
+        #Title p {
+            font-size: 0.6em;
+            padding-top: 2%;
+        }
+
+        #socialMediaContainer a {
+            font-size: 1.2em;
+            margin-right: 6%;
+        }
+
+        /* Links Buttons */
+        #LinksSection h1 {
+            font-size: 1em;
+            letter-spacing: 0.3px;
+        }
+
+        /* Links Buttons */
+        #ButtonsContainer {
+            width: 85%;
+        }
+
+        #ButtonsContainer a {
+            min-height: 28.2px!important;
+            justify-content: center;
+            padding: 0% 0.3% 0% 0.3%!important;
+            margin-right: 2%!important;
+        }
+
+        #ButtonsContainer a img{
+            width: 60%;
+            display: block;
+        }
+
+        #biografia, #presskit, #copyright {
+            margin-right: 10%;
+            font-size: 0.6em;
+        }
+    }
+
+    /* ---- 1024px Monitor Small ---- */
+    @media (max-width: ${breakpoints.monitorSmall}) {
+        /* LEFT ZONE */
+        #backgroundSection {
+            height: 94%;
+        }
+
+        /* News */
+        #newsSection {
+            height: 6%;
+        }
+
+        #newsSection span {
+            font-size: 0.75em;
+        }
+
+        /* RIGHT ZONE */
+        #rightZoneContainer {
+            padding: 12% 0% 12% 0%;
+        }
+    }
 `;
 
 export { HomeContainer };
