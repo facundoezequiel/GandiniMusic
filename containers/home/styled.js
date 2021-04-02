@@ -328,7 +328,7 @@ const HomeContainer = styled.div`
 
         /* News */
         #newsSection {
-            height: 5%;
+            height: 6%;
         }
 
         #newsSection span {
