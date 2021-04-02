@@ -174,6 +174,10 @@ const HomeContainer = styled.div`
         justify-content: center;
     }
 
+    #ButtonsContainer a:hover {
+        transform: scale(1.1);
+    }
+
     /* Buttons Hover */
     #youtube:hover {
         background-color: var(--youTubeRed)!important;
