@@ -672,6 +672,10 @@ const HomeContainer = styled.div`
             margin: 0% 3.5% 0% 3.5%;
         }
 
+        #socialMediaMobileContainer a:hover {
+            color: var(--black)!important;
+        }
+
         /* Player & Flyer Section */
         #playerFlyerContainer {
             width: 100%;
@@ -716,7 +720,30 @@ const HomeContainer = styled.div`
         }
 
         #ButtonsContainer a:hover {
-            transform: scale(1.2);
+            transform: scale(1);
+        }
+
+        /* Buttons Hover */
+        #youtube:hover {
+            background-color: var(--black)!important;
+        }
+        #twitch:hover {
+            background-color: var(--black)!important;
+        }
+        #spotify:hover {
+            background-color: var(--black)!important;
+        }
+        #bandcamp:hover {
+            background-color: var(--black)!important;
+        }
+        #soundcloud:hover {
+            background-color: var(--black)!important;
+        }
+        #mixcloud:hover {
+            background-color: var(--black)!important;
+        }
+        #beatport:hover {
+            background-color: var(--black)!important;
         }
 
         /* Footer */
