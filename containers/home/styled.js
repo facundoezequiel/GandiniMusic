@@ -774,7 +774,7 @@ const HomeContainer = styled.div`
         }
     
         #newsSection span {
-            font-size: 0.8em;
+            font-size: 0.9em;
         }
 
         /* Right Container */
@@ -787,31 +787,31 @@ const HomeContainer = styled.div`
         /* Title */
         #profileImage img {
             display: block;
-            width: 95%;
+            width: 100%;
         }
 
         #Title h1 {
-            font-size: 1.2em;
+            font-size: 1.4em;
             letter-spacing: 0.2px;
         }
 
         #Title h1 span {
-            font-size: 0.7em !important; 
+            font-size: 0.8em !important; 
             letter-spacing: 0.2px;
         }
 
         #Title p {
-            font-size: 0.6em !important; 
+            font-size: 0.75em !important; 
         }
 
         /* Social Media Mobile */
         #socialMediaMobileContainer a {
-            font-size: 1.6em;
+            font-size: 2em;
         }
 
         /* Links Buttons */
         #LinksSection h1 {
-            font-size: 1em;
+            font-size: 1.6em;
         }
 
         #ButtonsContainer {
@@ -822,19 +822,35 @@ const HomeContainer = styled.div`
 
         #ButtonsContainer a {
             justify-content: center;
-            padding: 2% 4% 2% 4%!important;
-            min-height: 37.14px!important;
+            padding: 2% 7% 2% 7%!important;
+            min-height: 45.14px!important;
             margin: 3% 2% 3% 2%!important;
         }
 
         #ButtonsContainer a img{
-            width: 80%!important;
+            width: 90%!important;
             display: block;
         }
 
         /* Footer */
         #footerContainer a {
-            font-size: 0.7em;
+            font-size: 1.2em;
+            margin-bottom: 5%;
+        }
+    }
+
+    /* ---- 375px iPhone 6 7 8 ---- */
+    @media (max-width: ${breakpoints.iphone678}) {
+        #Title h1 {
+            font-size: 1.3em;
+        }
+
+        #Title h1 span {
+            font-size: 0.7em !important; 
+        }
+
+        #Title p {
+            font-size: 0.7em !important; 
         }
     }
 `;
