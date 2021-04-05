@@ -81,6 +81,11 @@ const HomeContainer = styled.div`
         justify-content: space-between;
     }
 
+    /* Profile Image */
+    #profileImage {
+        display: none;
+    }
+
     #Title h1 {
         color: var(--black);
         font-weight: 800;
@@ -261,6 +266,38 @@ const HomeContainer = styled.div`
         #playerContainer {
             padding-top: 39.40%;
             width: 70%;
+        }
+    }
+
+    /* ---- 1860px Window ---- */
+    @media (max-width: ${breakpoints.window1860}) {
+        /* RIGHT ZONE */
+        #rightZoneContainer {
+            padding: 10% 0% 10% 0%;
+        }
+
+        /* Links Buttons */
+        #LinksSection {
+            justify-content: flex-start;
+        }
+
+        #LinksSection h1 {
+            font-size: 1.3em;
+            letter-spacing: 0.5px;
+        }
+
+        #ButtonsContainer {
+            width: 80%;
+        }
+
+        #ButtonsContainer a {
+            min-height: 45.2px!important;
+            justify-content: center;
+        }
+
+        #ButtonsContainer a img{
+            width: 90%;
+            display: block;
         }
     }
 

@@ -7,6 +7,7 @@ export const breakpoints = {
     monitorMedium: "1440px",
     window1624: "1624px",
     window1710: "1710px",
+    window1860: "1860px",
     monitorFullHD: "1920px",
     monitorUltraWide: "2560px",
   };

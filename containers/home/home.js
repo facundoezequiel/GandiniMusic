@@ -61,6 +61,10 @@ function Home() {
         <div id="rightZoneContainer">
           {/* Title Section */}
           <div id="TitleSection">
+            {/* Profile Image */}
+            <div id="profileImage">
+              <img src="" />
+            </div>
             {/* Title */}
             <div id="Title" className="animate__animated animate__fadeIn">
               <h1>
