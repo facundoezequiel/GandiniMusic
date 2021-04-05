@@ -111,11 +111,15 @@ const HomeContainer = styled.div`
         margin-top: 3%;
     }
 
-    #socialMediaContainer a {
+    #socialMediaContainer a, #socialMediaMobileContainer a {
         margin-right: 7%;
         font-size: 2.3em;
         transition: 0.2s all;
         color: var(--black);
+    }
+
+    #socialMediaMobileContainer {
+        display: none;
     }
 
     #instagram:hover {
@@ -230,7 +234,7 @@ const HomeContainer = styled.div`
         color: var(--red);
     }
 
-    /* RESPONSIVE */
+    /* DESKTOP RESPONSIVE */
 
     /* ---- 2560px UltraWide ---- */
     @media (max-width: ${breakpoints.monitorUltraWide}) {
@@ -574,6 +578,191 @@ const HomeContainer = styled.div`
         /* RIGHT ZONE */
         #rightZoneContainer {
             padding: 12% 0% 12% 0%;
+        }
+    }
+
+    /* ---- MOBILE RESPONSIVE ---- */
+
+    /* ---- 768px Tablet ---- */
+    @media (max-width: ${breakpoints.tablet}) {
+        width: 100%;
+        display: block;
+
+        /* LEFT ZONE (TOP ZONE) */
+        .leftZone {
+            width: 100%;
+            display: block;
+        }
+
+        #backgroundSection {
+            padding-bottom: 47%;
+        }
+
+        #newsSection {
+            width: 100%;
+            margin: 0 auto;
+            padding: 1.5% 5% 1.5% 5%!important;
+            background-color: var(--black);
+            min-height: 81.03px!important;
+        }
+
+        /* News */
+        #newsSection span {
+            font-size: 1.1em;
+            letter-spacing: 0.3px;
+        }
+
+        /* RIGHT ZONE */
+        .rightZone {
+            width: 100%; 	
+            background-position: center;
+        }
+
+        #rightZoneContainer {
+            width: 80%;
+            padding: 9% 0% 9% 0%;
+            margin: 0 auto;
+            display: block;
+        }
+
+        /* Title */
+        #TitleSection {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 9%;
+        }
+
+        /* Profile Image */
+        #profileImage {
+            display: block;
+            margin-right: 5%;
+        }
+
+        #Title h1 {
+            font-size: 2em;
+            letter-spacing: 1.3px;
+            text-align: left;
+        }
+
+        #Title h1 span {
+            font-size: 0.7em !important; 
+        }
+
+        #Title p {
+            color: var(--black);
+            font-family: var(--poppins);
+            padding-top: 2%;
+            text-align: left;
+            font-size: 1.2em !important; 
+        }
+
+        #socialMediaContainer {
+            display: none;
+        }
+
+        #socialMediaMobileContainer {
+            display: flex;
+            margin: 2% 0% 9% 0%;
+            justify-content: center;
+        }
+
+        #socialMediaMobileContainer a {
+            margin: 0% 3.5% 0% 3.5%;
+        }
+
+        /* Player & Flyer Section */
+        #playerFlyerContainer {
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        #playerContainer {
+            padding-top: 56.25%;
+            width: 100%;
+        }
+
+        /* Links Buttons */
+        #LinksSection {
+            margin-top: 9%;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #LinksSection h1 {
+            font-size: 2em;
+            text-align: center;
+        }
+
+        #ButtonsContainer {
+            margin-top: 3%;
+            width: 100%;
+            justify-content: center;
+        }
+
+        #ButtonsContainer a {
+            justify-content: center;
+            padding: 2% 4% 2% 4%!important;
+            min-height: 49.14px!important;
+            margin: 3% 2% 0% 2%!important;
+        }
+
+        #ButtonsContainer a img{
+            width: 200%!important;
+            display: block;
+        }
+
+        #ButtonsContainer a:hover {
+            transform: scale(1.2);
+        }
+
+        /* Footer */
+        #footerContainer {
+            justify-content: center;
+            margin-top: 13%;
+        }
+
+        #footerContainer a {
+            text-align: center;
+            font-size: 1.2em;
+        }
+
+        #biografia, #presskit, #copyright {
+            margin: 0% 4% 0% 4%;
+        }
+    }
+
+    /* ---- 651px Mobile ---- */
+    @media (max-width: ${breakpoints.monitorSmall}) {
+        /* News */
+        #newsSection span {
+            font-size: 1em;
+        }
+
+        /* Title */
+        #Title h1 {
+            font-size: 1.8em;
+        }
+
+        #Title h1 span {
+            font-size: 0.7em !important; 
+        }
+
+        #Title p {
+            font-size: 0.9em !important; 
+        }
+
+        /* Links Buttons */
+        #LinksSection h1 {
+            font-size: 1.5em;
+        }
+
+        /* Footer */
+        #footerContainer a {
+            font-size: 1em;
         }
     }
 `;

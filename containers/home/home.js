@@ -17,9 +17,7 @@ import { Helmet } from "react-helmet";
 function Home() {
   return (
     <HomeContainer>
-      <Helmet>
-        
-      </Helmet>
+      <Helmet></Helmet>
       {/* LEFT ZONE */}
       <section className="leftZone">
         <div
@@ -63,7 +61,7 @@ function Home() {
           <div id="TitleSection">
             {/* Profile Image */}
             <div id="profileImage">
-              <img src="" />
+              <img src="Images/Profile.png" />
             </div>
             {/* Title */}
             <div id="Title" className="animate__animated animate__fadeIn">
@@ -74,7 +72,7 @@ function Home() {
                 DJ / Musicalizador / Productor / Editor / Remixer / Radio Host /
                 Ableton Teacher
               </p>
-              {/* Social Media */}
+              {/* Social Media Desktop*/}
               <div id="socialMediaContainer">
                 {/* Instagram */}
                 <NextLink href="https://www.instagram.com/gandinimusic/">
@@ -108,6 +106,39 @@ function Home() {
                 </NextLink>
               </div>
             </div>
+          </div>
+          {/* Social Media Mobile*/}
+          <div id="socialMediaMobileContainer">
+            {/* Instagram */}
+            <NextLink href="https://www.instagram.com/gandinimusic/">
+              <a target="blank" id="instagram">
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
+            </NextLink>
+            {/* Facebook */}
+            <NextLink href="https://www.facebook.com/gandinimusic">
+              <a target="blank" id="facebook">
+                <FontAwesomeIcon icon={faFacebookSquare} />
+              </a>
+            </NextLink>
+            {/* Twitter */}
+            <NextLink href="https://twitter.com/gandinimusic">
+              <a target="blank" id="twitter">
+                <FontAwesomeIcon icon={faTwitter} />
+              </a>
+            </NextLink>
+            {/* WhatsApp */}
+            <NextLink href="https://api.whatsapp.com/send?phone=5491141787425">
+              <a target="blank" id="whatsapp">
+                <FontAwesomeIcon icon={faWhatsapp} />
+              </a>
+            </NextLink>
+            {/* Correo */}
+            <NextLink href="mailto:gandinimusic@gmail.com">
+              <a target="_self" id="mail">
+                <FontAwesomeIcon icon={faEnvelope} />
+              </a>
+            </NextLink>
           </div>
           {/* Player & Flyer Section */}
           <div id="playerFlyerContainer">
