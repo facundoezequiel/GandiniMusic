@@ -765,6 +765,78 @@ const HomeContainer = styled.div`
             font-size: 1em;
         }
     }
+
+    /* ---- 414px iPhone 6 7 8 Plus ---- */
+    @media (max-width: ${breakpoints.iphone678Plus}) {
+        /* News */
+        #newsSection {
+            min-height: 55px!important;
+        }
+    
+        #newsSection span {
+            font-size: 0.8em;
+        }
+
+        /* Right Container */
+        #rightZoneContainer {
+            width: 85%;
+            padding: 9% 0% 9% 0%;
+            margin: 0 auto;
+        }
+
+        /* Title */
+        #profileImage img {
+            display: block;
+            width: 95%;
+        }
+
+        #Title h1 {
+            font-size: 1.2em;
+            letter-spacing: 0.2px;
+        }
+
+        #Title h1 span {
+            font-size: 0.7em !important; 
+            letter-spacing: 0.2px;
+        }
+
+        #Title p {
+            font-size: 0.6em !important; 
+        }
+
+        /* Social Media Mobile */
+        #socialMediaMobileContainer a {
+            font-size: 1.6em;
+        }
+
+        /* Links Buttons */
+        #LinksSection h1 {
+            font-size: 1em;
+        }
+
+        #ButtonsContainer {
+            margin-top: 3%;
+            width: 100%;
+            justify-content: center;
+        }
+
+        #ButtonsContainer a {
+            justify-content: center;
+            padding: 2% 4% 2% 4%!important;
+            min-height: 37.14px!important;
+            margin: 3% 2% 3% 2%!important;
+        }
+
+        #ButtonsContainer a img{
+            width: 80%!important;
+            display: block;
+        }
+
+        /* Footer */
+        #footerContainer a {
+            font-size: 0.7em;
+        }
+    }
 `;
 
 export { HomeContainer };
