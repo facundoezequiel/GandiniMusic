@@ -2,15 +2,37 @@ import styled from "styled-components";
 import { breakpoints } from "../../constants/media";
 
 const HomeContainer = styled.div`
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    
     width: 100%;
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
 
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    *, input, select, textarea, option, button {
+        outline: none !important;
+    }
+
+    ::-moz-selection {
+        /* Code for Firefox */
+        color: white;
+        background: red;
+    }
+
+    ::selection {
+        color: white;
+        background: red;
+    }
+
     /* LEFT ZONE */
     .leftZone {
         width: 50%;
-        background-color: gray;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -35,7 +57,7 @@ const HomeContainer = styled.div`
 
     #newsSection {
         width: 100%;
-        background-color: var(--black);
+        background-color: black;
         display: flex;
         align-items: center;
         justify-content: center; 
@@ -45,10 +67,9 @@ const HomeContainer = styled.div`
     /* News */
     #newsSection span {
         font-weight: 800;
-        font-family: var(--poppins);
         font-size: 1em;
         letter-spacing: 0.5px;
-        color: var(--white);
+        color: white;
         text-align: center;
     }
 
@@ -87,9 +108,8 @@ const HomeContainer = styled.div`
     }
 
     #Title h1 {
-        color: var(--black);
+        color: black;
         font-weight: 800;
-        font-family: var(--poppins);
         font-size: 2em;
         letter-spacing: 1.3px;
         text-align: left;
@@ -101,8 +121,7 @@ const HomeContainer = styled.div`
     }
 
     #Title p {
-        color: var(--black);
-        font-family: var(--poppins);
+        color: black;
         padding-top: 2%;
         text-align: left;
     }
@@ -115,7 +134,7 @@ const HomeContainer = styled.div`
         margin-right: 7%;
         font-size: 2.3em;
         transition: 0.2s all;
-        color: var(--black);
+        color: black;
     }
 
     #socialMediaMobileContainer {
@@ -123,19 +142,19 @@ const HomeContainer = styled.div`
     }
 
     #instagram:hover {
-        color: var(--instagramPink)!important;
+        color: #E1306C!important;
     }
     #facebook:hover {
-        color: var(--facebookBlue)!important;
+        color: #3b5998!important;
     }
     #twitter:hover {
-        color: var(--twitterBlue)!important;
+        color: #00acee!important;
     }
     #whatsapp:hover {
-        color: var(--whatsappGreen)!important;
+        color: #075e54!important;
     }
     #mail:hover {
-        color: var(--red)!important;
+        color: red!important;
     }
 
     /* Player & Flyer Section */
@@ -166,8 +185,7 @@ const HomeContainer = styled.div`
 
     #LinksSection h1 {
         width: 100%;
-        color: var(--black);
-        font-family: var(--poppins);
+        color: black;
         text-align: left;
     }
 
@@ -189,25 +207,25 @@ const HomeContainer = styled.div`
 
     /* Buttons Hover */
     #youtube:hover {
-        background-color: var(--youTubeRed)!important;
+        background-color: #ff0000!important;
     }
     #twitch:hover {
-        background-color: var(--twitchPurple)!important;
+        background-color: #6441a5!important;
     }
     #spotify:hover {
-        background-color: var(--spotifyGreen)!important;
+        background-color: #1DB954!important;
     }
     #bandcamp:hover {
-        background-color: var(--bandcampBlue)!important;
+        background-color: #1ea0c4!important;
     }
     #soundcloud:hover {
-        background-color: var(--soundcloudOrange)!important;
+        background-color: #ff5500!important;
     }
     #mixcloud:hover {
-        background-color: var(--mixcloudBlue)!important;
+        background-color: #5000ff!important;
     }
     #beatport:hover {
-        background-color: var(--beatportGreen)!important;
+        background-color: #94cf1a!important;
     }
 
     /* Footer */
@@ -220,8 +238,7 @@ const HomeContainer = styled.div`
     }
 
     #footerContainer a {
-        color: var(--black);
-        font-family: var(--poppins);
+        color: black;
         text-align: left;
     }
 
@@ -231,7 +248,7 @@ const HomeContainer = styled.div`
     }
 
     #biografia:hover, #presskit:hover, #copyright:hover {
-        color: var(--red);
+        color: red;
     }
 
     /* DESKTOP RESPONSIVE */
@@ -559,32 +576,10 @@ const HomeContainer = styled.div`
         }
     }
 
-    /* ---- 1024px Monitor Small ---- */
-    @media (max-width: ${breakpoints.monitorSmall}) {
-        /* LEFT ZONE */
-        #backgroundSection {
-            height: 94%;
-        }
-
-        /* News */
-        #newsSection {
-            height: 6%;
-        }
-
-        #newsSection span {
-            font-size: 0.75em;
-        }
-
-        /* RIGHT ZONE */
-        #rightZoneContainer {
-            padding: 12% 0% 12% 0%;
-        }
-    }
-
     /* ---- MOBILE RESPONSIVE ---- */
 
-    /* ---- 768px Tablet ---- */
-    @media (max-width: ${breakpoints.tablet}) {
+    /* ---- 1024px iPad Pro ---- */
+    @media (max-width: ${breakpoints.iPadPro}) {
         width: 100%;
         display: block;
 
@@ -602,7 +597,6 @@ const HomeContainer = styled.div`
             width: 100%;
             margin: 0 auto;
             padding: 1.5% 5% 1.5% 5%!important;
-            background-color: var(--black);
             min-height: 81.03px!important;
         }
 
@@ -641,7 +635,7 @@ const HomeContainer = styled.div`
         }
 
         #Title h1 {
-            font-size: 2em;
+            font-size: 3em;
             letter-spacing: 1.3px;
             text-align: left;
         }
@@ -651,11 +645,9 @@ const HomeContainer = styled.div`
         }
 
         #Title p {
-            color: var(--black);
-            font-family: var(--poppins);
             padding-top: 2%;
             text-align: left;
-            font-size: 1.2em !important; 
+            font-size: 1em !important; 
         }
 
         #socialMediaContainer {
@@ -670,13 +662,13 @@ const HomeContainer = styled.div`
 
         #socialMediaMobileContainer a {
             margin: 0% 3.5% 0% 3.5%;
+            font-size: 3.5em;
         }
 
         #socialMediaMobileContainer a:hover {
-            color: var(--black)!important;
+            color: black!important;
         }
 
-        /* Player & Flyer Section */
         #playerFlyerContainer {
             width: 100%;
             display: flex;
@@ -688,7 +680,6 @@ const HomeContainer = styled.div`
             width: 100%;
         }
 
-        /* Links Buttons */
         #LinksSection {
             margin-top: 9%;
             width: 100%;
@@ -711,7 +702,8 @@ const HomeContainer = styled.div`
             justify-content: center;
             padding: 2% 4% 2% 4%!important;
             min-height: 49.14px!important;
-            margin: 3% 2% 0% 2%!important;
+            margin: 5% 5% 0% 5%!important;
+            transform: scale(1.3);
         }
 
         #ButtonsContainer a img{
@@ -720,33 +712,31 @@ const HomeContainer = styled.div`
         }
 
         #ButtonsContainer a:hover {
-            transform: scale(1);
+            transform: scale(1.3);
         }
 
-        /* Buttons Hover */
         #youtube:hover {
-            background-color: var(--black)!important;
+            background-color: black!important;
         }
         #twitch:hover {
-            background-color: var(--black)!important;
+            background-color: black!important;
         }
         #spotify:hover {
-            background-color: var(--black)!important;
+            background-color: black!important;
         }
         #bandcamp:hover {
-            background-color: var(--black)!important;
+            background-color: black!important;
         }
         #soundcloud:hover {
-            background-color: var(--black)!important;
+            background-color: black!important;
         }
         #mixcloud:hover {
-            background-color: var(--black)!important;
+            background-color: black!important;
         }
         #beatport:hover {
-            background-color: var(--black)!important;
+            background-color: black!important;
         }
 
-        /* Footer */
         #footerContainer {
             justify-content: center;
             margin-top: 13%;
@@ -762,14 +752,37 @@ const HomeContainer = styled.div`
         }
     }
 
+    /* ---- 768px iPad ---- */
+    @media (max-width: ${breakpoints.iPad}) {
+        #Title h1 {
+            font-size: 2.2em;
+        }
+
+        #Title p {
+            font-size: 1em !important; 
+        }
+
+        #socialMediaMobileContainer a {
+            margin: 0% 5% 0% 5%;
+            font-size: 3em;
+        }
+
+        #ButtonsContainer a {
+            margin: 7% 6% 0% 6%!important;
+            transform: scale(1.3);
+        }
+
+        #ButtonsContainer a:hover {
+            transform: scale(1.3);
+        }
+    }
+
     /* ---- 651px Mobile ---- */
-    @media (max-width: ${breakpoints.monitorSmall}) {
-        /* News */
+    @media (max-width: ${breakpoints.mobile}) {
         #newsSection span {
             font-size: 1em;
         }
 
-        /* Title */
         #Title h1 {
             font-size: 1.8em;
         }
@@ -782,12 +795,14 @@ const HomeContainer = styled.div`
             font-size: 0.9em !important; 
         }
 
-        /* Links Buttons */
         #LinksSection h1 {
             font-size: 1.5em;
         }
 
-        /* Footer */
+        #ButtonsContainer a {
+            transform: scale(1);
+        }
+
         #footerContainer a {
             font-size: 1em;
         }
@@ -795,7 +810,6 @@ const HomeContainer = styled.div`
 
     /* ---- 414px iPhone 6 7 8 Plus ---- */
     @media (max-width: ${breakpoints.iphone678Plus}) {
-        /* News */
         #newsSection {
             min-height: 55px!important;
         }
@@ -804,14 +818,12 @@ const HomeContainer = styled.div`
             font-size: 0.9em;
         }
 
-        /* Right Container */
         #rightZoneContainer {
             width: 85%;
             padding: 9% 0% 9% 0%;
             margin: 0 auto;
         }
 
-        /* Title */
         #profileImage img {
             display: block;
             width: 100%;
@@ -831,12 +843,10 @@ const HomeContainer = styled.div`
             font-size: 0.75em !important; 
         }
 
-        /* Social Media Mobile */
         #socialMediaMobileContainer a {
             font-size: 2em;
         }
 
-        /* Links Buttons */
         #LinksSection h1 {
             font-size: 1.6em;
         }
@@ -859,7 +869,6 @@ const HomeContainer = styled.div`
             display: block;
         }
 
-        /* Footer */
         #footerContainer a {
             font-size: 1.2em;
             margin-bottom: 5%;
@@ -878,6 +887,110 @@ const HomeContainer = styled.div`
 
         #Title p {
             font-size: 0.7em !important; 
+        }
+    }
+
+    /* ---- 360px Moto G4 Samsung S5 ---- */
+    @media (max-width: ${breakpoints.motoG4}) {
+        #newsSection span {
+            font-size: 0.8em;
+        }
+
+        #socialMediaMobileContainer a {
+            font-size: 1.7em;
+        }
+
+        #LinksSection h1 {
+            font-size: 1.2em;
+        }
+
+        #ButtonsContainer a {
+            padding: 2% 4% 2% 4%!important;
+            min-height: 40px!important;
+        }
+
+        #ButtonsContainer a img{
+            width: 78%!important;
+        }
+
+        #footerContainer a {
+            font-size: 0.9em;
+        }
+    }
+
+    /* ---- 320px iPhone 5 / SE ---- */
+    @media (max-width: ${breakpoints.iphone5SE}) {
+        #Title h1 {
+            font-size: 1em;
+        }
+
+        #Title h1 span {
+            font-size: 0.7em !important; 
+        }
+
+        #Title p {
+            font-size: 0.6em !important; 
+        }
+
+        #socialMediaMobileContainer a {
+            font-size: 1.5em;
+        }
+
+        #LinksSection h1 {
+            font-size: 1em;
+        }
+
+        #ButtonsContainer a {
+            padding: 2% 2% 2% 2%!important;
+            min-height: 35.14px!important;
+        }
+
+        #ButtonsContainer a img{
+            width: 70%!important;
+        }
+
+        #footerContainer a {
+            font-size: 0.8em;
+        }
+    }
+
+    /* ---- 280px Samsung Galaxy Fold ---- */
+    @media (max-width: ${breakpoints.galaxyFold}) {
+        #newsSection span {
+            font-size: 0.7em;
+        }
+        
+        #Title h1 {
+            font-size: 0.8em;
+        }
+
+        #Title h1 span {
+            font-size: 0.6em !important; 
+        }
+
+        #Title p {
+            font-size: 0.5em !important; 
+        }
+
+        #socialMediaMobileContainer a {
+            font-size: 1.2em;
+        }
+
+        #LinksSection h1 {
+            font-size: 0.8em;
+        }
+
+        #ButtonsContainer a {
+            padding: 2% 0% 2% 0%!important;
+            min-height: 25px!important;
+        }
+
+        #ButtonsContainer a img{
+            width: 45%!important;
+        }
+
+        #footerContainer a {
+            font-size: 0.7em;
         }
     }
 `;

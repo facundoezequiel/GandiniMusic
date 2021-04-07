@@ -10,7 +10,7 @@ function LinkButton({
     ...props
   }) {
     const buttonsStyle = {
-        backgroundColor: "var(--black)",
+        backgroundColor: "black",
         transition: "0.2s all",
         cursor: "pointer",
         display: "flex",

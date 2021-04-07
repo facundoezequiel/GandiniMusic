@@ -1,7 +1,6 @@
 import '../styles/globals.css'
 import React from "react";
 import Head from "next/head";
-import GlobalStyles from "../constants/globalStyles";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
 function MyApp({ Component, pageProps }) {
@@ -15,7 +14,6 @@ function MyApp({ Component, pageProps }) {
         />   
       </Head>
       <Component {...pageProps} />
-      <GlobalStyles />
     </>
   );
 }
