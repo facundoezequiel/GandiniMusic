@@ -37,7 +37,7 @@ function Home() {
         <div id="newsSection">
           <ReactTyped
             strings={[
-              "ME ENCUENTRO TRABAJANDO EN LA PRODUCCION DE MI SEGUNDO ALBUM DE ESTUDIO",
+              "ME ENCUENTRO TRABAJANDO EN LA PRODUCCIÓN DE MI SEGUNDO ÁLBUM DE ESTUDIO",
               "I AM WORKING ON THE PRODUCTION OF MY SECOND STUDIO ALBUM",
             ]}
             typeSpeed={50}
