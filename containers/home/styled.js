@@ -280,7 +280,7 @@ const HomeContainer = styled.div`
      @media (max-width: ${breakpoints.monitorFullHD}) {
         /* RIGHT ZONE */
         #rightZoneContainer {
-            padding: 12% 0% 12% 0%;
+            padding: 8% 0% 8% 0%;
         }
 
         /* Player & Flyer Section */
