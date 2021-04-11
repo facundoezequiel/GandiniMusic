@@ -17,7 +17,13 @@ import { Helmet } from "react-helmet";
 function Home() {
   return (
     <HomeContainer>
-      <Helmet></Helmet>
+      <Helmet>
+        <meta property="og:title" content="Gandini Music"/>
+        <meta property="og:url" content="https://www.gandinimusic.com/"/>
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://www.gandinimusic.com/Images/share.jpg"/>
+        <meta property="og:description" content="Gandini Music Web Landing Page"/>
+      </Helmet>
       {/* LEFT ZONE */}
       <section className="leftZone">
         <div
