@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:type" content="website" />
         <meta property="og:image" itemprop="image" content="https://www.gandinimusic.com/Images/share.jpg"/>
         <meta property="og:image:secure_url" itemprop="image" content="https://www.gandinimusic.com/Images/share.jpg"/>
-        <meta property="og:description" content="Gandini Music Web Landing Page"/>
+        <meta property="og:description" content="Gandini Music Web"/>
       </Head>
       <Component {...pageProps} />
     </>
