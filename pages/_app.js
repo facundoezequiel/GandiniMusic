@@ -12,11 +12,12 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />   
+        <meta property="og:site_name" content="Gandini Music"></meta>
         <meta property="og:title" content="Gandini Music"/>
         <meta property="og:url" content="https://www.gandinimusic.com/"/>
-        <meta property="og:type" content="article" />
-        <meta property="og:image" content="https://www.gandinimusic.com/Images/share.jpg"/>
-        <meta property="og:image:secure_url" content="https://www.gandinimusic.com/Images/share.jpg"/>
+        <meta property="og:type" content="website" />
+        <meta property="og:image" itemprop="image" content="https://www.gandinimusic.com/Images/share.jpg"/>
+        <meta property="og:image:secure_url" itemprop="image" content="https://www.gandinimusic.com/Images/share.jpg"/>
         <meta property="og:description" content="Gandini Music Web Landing Page"/>
       </Head>
       <Component {...pageProps} />
