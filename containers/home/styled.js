@@ -467,6 +467,11 @@ const HomeContainer = styled.div`
     /* ---- 1366px Monitor Estandar ---- */
     @media (max-width: ${breakpoints.monitorEstandar}) {
         /* News */
+        .ticker__element {
+            max-width: 1230px;
+            min-width: 1230px;
+        }
+
         .ticker__element p {
             font-size: 0.85em;
             letter-spacing: 0.3px;
@@ -612,6 +617,11 @@ const HomeContainer = styled.div`
         }
 
         /* News */
+        .ticker__element {
+            max-width: 1540px;
+            min-width: 1540px;
+        }
+
         .ticker__element p {
             font-size: 1.1em;
             letter-spacing: 0.3px;
@@ -794,6 +804,11 @@ const HomeContainer = styled.div`
             width: 100%;
             margin: 0 auto;
             height: 40px!important;
+        }
+        
+        .ticker__element {
+            max-width: 1300px;
+            min-width: 1300px;
         }
 
         .ticker__element p {
