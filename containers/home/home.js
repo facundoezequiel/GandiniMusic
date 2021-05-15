@@ -10,7 +10,8 @@ import {
 import { HomeContainer } from "./styled";
 import LinkButton from "../../components/linksButtons/index";
 import MediaPlayer from "../../components/mediaPlayer/index";
-import ReactTyped from "react-typed";
+{/* import ReactTyped from "react-typed"; */}
+import Ticker from "react-ticker";
 import { default as NextLink } from "next/link";
 import { Helmet } from "react-helmet";
 
@@ -36,6 +37,15 @@ function Home() {
           /> */}
         </div>
         <div id="newsSection">
+          <Ticker>
+            {({ index }) => (
+              <>
+                <p>ME ENCUENTRO TRABAJANDO EN LA PRODUCCIÓN DE MI SEGUNDO ÁLBUM DE ESTUDIO.</p>
+                <p>I AM WORKING ON THE PRODUCTION OF MY SECOND STUDIO ALBUM.</p>
+              </>
+            )}
+          </Ticker>
+          {/*
           <ReactTyped
             strings={[
               "ME ENCUENTRO TRABAJANDO EN LA PRODUCCIÓN DE MI SEGUNDO ÁLBUM DE ESTUDIO",
@@ -48,6 +58,7 @@ function Home() {
             loop
             smartBackspace
           />
+          */}
         </div>
       </section>
       {/* RIGHT ZONE */}

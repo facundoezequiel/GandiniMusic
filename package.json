@@ -25,6 +25,7 @@
     "react-helmet": "^6.1.0",
     "react-native-svg": "^12.1.0",
     "react-player": "^2.9.0",
+    "react-ticker": "^1.2.2",
     "react-typed": "^1.2.0",
     "styled-components": "^5.2.1"
   },

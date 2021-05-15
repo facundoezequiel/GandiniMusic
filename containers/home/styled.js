@@ -41,7 +41,7 @@ const HomeContainer = styled.div`
 
     #backgroundSection {
         width: 100%;
-        height: 93%;
+        height: 94%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; 
@@ -57,20 +57,36 @@ const HomeContainer = styled.div`
 
     #newsSection {
         width: 100%;
+        height: 6%;
         background-color: black;
-        display: flex;
-        align-items: center;
-        justify-content: center; 
-        height: 7%;
     }
 
     /* News */
-    #newsSection span {
+    .ticker {
+        width: 100%;
+        height: 100% !important;
+        position: relative;
+        overflow: hidden;
+        background-color: black;
+    }
+    
+    .ticker__element {
+        height: 100% !important;
+        max-width: 1440px;
+        min-width: 1440px;
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+
+    .ticker__element p {
+        display: inline;
         font-weight: 800;
         font-size: 1em;
         letter-spacing: 0.5px;
         color: white;
         text-align: center;
+        margin-right: 70px;
     }
 
     /* RIGHT ZONE */
@@ -393,7 +409,7 @@ const HomeContainer = styled.div`
             height: 6%;
         }
 
-        #newsSection span {
+        .ticker__element p {
             font-size: 0.85em;
         }
         
@@ -451,7 +467,7 @@ const HomeContainer = styled.div`
     /* ---- 1366px Monitor Estandar ---- */
     @media (max-width: ${breakpoints.monitorEstandar}) {
         /* News */
-        #newsSection span {
+        .ticker__element p {
             font-size: 0.85em;
             letter-spacing: 0.3px;
         }
@@ -520,10 +536,6 @@ const HomeContainer = styled.div`
         /* News */
         #newsSection {
             height: 5.5%;
-        }
-
-        #newsSection span {
-            font-size: 0.75em;
         }
 
         /* RIGHT ZONE */
@@ -596,12 +608,11 @@ const HomeContainer = styled.div`
         #newsSection {
             width: 100%;
             margin: 0 auto;
-            padding: 1.5% 5% 1.5% 5%!important;
-            min-height: 81.03px!important;
+            height: 81.03px!important;
         }
 
         /* News */
-        #newsSection span {
+        .ticker__element p {
             font-size: 1.1em;
             letter-spacing: 0.3px;
         }
@@ -779,7 +790,13 @@ const HomeContainer = styled.div`
 
     /* ---- 651px Mobile ---- */
     @media (max-width: ${breakpoints.mobile}) {
-        #newsSection span {
+        #newsSection {
+            width: 100%;
+            margin: 0 auto;
+            height: 40px!important;
+        }
+
+        .ticker__element p {
             font-size: 1em;
         }
 
@@ -814,7 +831,7 @@ const HomeContainer = styled.div`
             min-height: 55px!important;
         }
     
-        #newsSection span {
+        .ticker__element p {
             font-size: 0.9em;
         }
 
