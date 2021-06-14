@@ -10,7 +10,9 @@ import {
 import { HomeContainer } from "./styled";
 import LinkButton from "../../components/linksButtons/index";
 import MediaPlayer from "../../components/mediaPlayer/index";
-{/* import ReactTyped from "react-typed"; */}
+{
+  /* import ReactTyped from "react-typed"; */
+}
 import Ticker from "react-ticker";
 import { default as NextLink } from "next/link";
 import { Helmet } from "react-helmet";
@@ -18,8 +20,7 @@ import { Helmet } from "react-helmet";
 function Home() {
   return (
     <HomeContainer>
-      <Helmet>
-      </Helmet>
+      <Helmet></Helmet>
       {/* LEFT ZONE */}
       <section className="leftZone">
         <div
@@ -40,7 +41,10 @@ function Home() {
           <Ticker>
             {({ index }) => (
               <>
-                <p>ME ENCUENTRO TRABAJANDO EN LA PRODUCCIÓN DE MI SEGUNDO ÁLBUM DE ESTUDIO.</p>
+                <p>
+                  ME ENCUENTRO TRABAJANDO EN LA PRODUCCIÓN DE MI SEGUNDO ÁLBUM
+                  DE ESTUDIO.
+                </p>
                 <p>I AM WORKING ON THE PRODUCTION OF MY SECOND STUDIO ALBUM.</p>
               </>
             )}
@@ -81,8 +85,8 @@ function Home() {
                 CRISTIAN GANDINI <span>AR</span>
               </h1>
               <p>
-                DJ / Musicalizador / Productor / Editor / Remixer / Radio Host /
-                Ableton Teacher
+                DJ / Productor / Editor / Remixer / Radio Host / Ableton Teacher
+                / Label Manager
               </p>
               {/* Social Media Desktop*/}
               <div id="socialMediaContainer">
