@@ -241,7 +241,7 @@ const HomeContainer = styled.div`
         background-color: #5000ff!important;
     }
     #beatport:hover {
-        background-color: #94cf1a!important;
+        background-color: #02ff95!important;
     }
 
     /* Footer */
