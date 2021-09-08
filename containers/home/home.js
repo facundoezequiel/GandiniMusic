@@ -26,7 +26,7 @@ function Home() {
         <div
           id="backgroundSection"
           style={{
-            backgroundImage: `url(${"/Images/BackgroundLeft.jpg"})`,
+            backgroundImage: `url(${"/Images/BackgroundLeftOutsider.jpg"})`,
           }}
         >
           {/* Logo Gandini Center 
@@ -42,10 +42,13 @@ function Home() {
             {({ index }) => (
               <>
                 <p>
-                  ME ENCUENTRO TRABAJANDO EN LA PRODUCCIÓN DE MI SEGUNDO ÁLBUM
-                  DE ESTUDIO.
+                  21 DE SEPTIEMBRE - GANDINI "KALI MIST". PRIMER SINGLE DEL
+                  ÁLBUM "OUTSIDER"
                 </p>
-                <p>I AM WORKING ON THE PRODUCTION OF MY SECOND STUDIO ALBUM.</p>
+                <p>
+                  SEPTEMBER 21 - GANDINI "KALI MIST". FIRST SINGLE OF ALBUM
+                  "OUTSIDER"
+                </p>
               </>
             )}
           </Ticker>
