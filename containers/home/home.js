@@ -42,12 +42,12 @@ function Home() {
             {({ index }) => (
               <>
                 <p>
-                  21 DE SEPTIEMBRE - GANDINI "KALI MIST". PRIMER SINGLE DEL
-                  ÁLBUM "OUTSIDER"
+                  21 DE SEPTIEMBRE - GANDINI "KALI MIST" PRIMER SINGLE DEL ÁLBUM
+                  "OUTSIDER"
                 </p>
                 <p>
-                  SEPTEMBER 21 - GANDINI "KALI MIST". FIRST SINGLE OF ALBUM
-                  "OUTSIDER"
+                  SEPTEMBER 21 - GANDINI "KALI MIST" FIRST SINGLE FROM
+                  "OUTSIDER" ALBUM
                 </p>
               </>
             )}
@@ -163,7 +163,7 @@ function Home() {
           <div id="playerFlyerContainer">
             <div id="playerContainer">
               {/* YouTube Player */}
-              <MediaPlayer link="https://www.youtube.com/watch?v=pnPfgjTxIZU" />
+              <MediaPlayer link="https://youtu.be/E4VrLiTozkM" />
             </div>
           </div>
           {/* Links Section */}
@@ -238,7 +238,7 @@ function Home() {
               </a>
             </NextLink>
             {/* Copyright */}
-            <NextLink href="https://youtu.be/FGI8a60HUqY">
+            <NextLink href="https://www.youtube.com/watch?v=pnPfgjTxIZU">
               <a target="blank" id="copyright">
                 GANDINI MUSIC 2021 ©
               </a>
