@@ -227,19 +227,19 @@ function Home() {
           <div id="footerContainer">
             {/* Descargar Biografia */}
             <NextLink href="https://www.dropbox.com/s/delz5kkav5j2vk6/Gandini%20Biograf%C3%ADa%202020.pdf?dl=0">
-              <a target="blank" id="biografia">
+              <a target="_blank" id="biografia">
                 BIOGRAFÍA
               </a>
             </NextLink>
             {/* Press Kit */}
             <NextLink href="https://www.dropbox.com/sh/o7p4m8lc9hfmkla/AAB6_xneyZ94DWHyi7gc100wa?dl=0">
-              <a target="blank" id="presskit">
+              <a target="_blank" id="presskit">
                 PRESS KIT
               </a>
             </NextLink>
             {/* Copyright */}
             <NextLink href="https://www.youtube.com/watch?v=pnPfgjTxIZU">
-              <a target="blank" id="copyright">
+              <a target="_blank" id="copyright">
                 GANDINI MUSIC 2021 ©
               </a>
             </NextLink>
