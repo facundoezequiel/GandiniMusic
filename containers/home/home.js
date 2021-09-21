@@ -42,12 +42,12 @@ function Home() {
             {({ index }) => (
               <>
                 <p>
-                  21 DE SEPTIEMBRE - GANDINI "KALI MIST" PRIMER SINGLE DEL ÁLBUM
+                  YA DISPONIBLE! GANDINI "KALI MIST" PRIMER SINGLE DEL ALBUM
                   "OUTSIDER"
                 </p>
                 <p>
-                  SEPTEMBER 21 - GANDINI "KALI MIST" FIRST SINGLE FROM
-                  "OUTSIDER" ALBUM
+                  OUT NOW! GANDINI "KALI MIST" FIRST SINGLE FROM "OUTSIDER"
+                  ALBUM
                 </p>
               </>
             )}

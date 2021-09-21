@@ -77,8 +77,8 @@ const HomeContainer = styled.div`
 
   .ticker__element {
     height: 100% !important;
-    max-width: 1540px;
-    min-width: 1540px;
+    max-width: 1440px;
+    min-width: 1440px;
     display: flex;
     align-content: center;
     align-items: center;
