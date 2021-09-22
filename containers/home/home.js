@@ -195,7 +195,7 @@ function Home() {
               />
               {/* Bandcamp */}
               <LinkButton
-                link="https://gandini.bandcamp.com/releases"
+                link="https://gandini.bandcamp.com"
                 logo="Logos/Bandcamp.svg"
                 alt="Bandcamp"
                 platform="bandcamp"
