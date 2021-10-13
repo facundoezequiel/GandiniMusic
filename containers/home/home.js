@@ -221,6 +221,13 @@ function Home() {
                 alt="Beatport"
                 platform="beatport"
               />
+              {/* Apple Music */}
+              <LinkButton
+                link="https://music.apple.com/ar/artist/gandini/212330146"
+                logo="Logos/AppleMusic.svg"
+                alt="Apple Music"
+                platform="applemusic"
+              />
             </div>
           </div>
           {/* Footer */}

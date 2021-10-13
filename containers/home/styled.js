@@ -249,6 +249,9 @@ const HomeContainer = styled.div`
   #beatport:hover {
     background-color: #02ff95 !important;
   }
+  #applemusic:hover {
+    background-color: #d50117 !important;
+  }
 
   /* Footer */
   #footerContainer {
@@ -773,6 +776,9 @@ const HomeContainer = styled.div`
       background-color: black !important;
     }
     #beatport:hover {
+      background-color: black !important;
+    }
+    #applemusic:hover {
       background-color: black !important;
     }
 
