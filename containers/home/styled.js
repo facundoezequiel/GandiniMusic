@@ -301,7 +301,7 @@ const HomeContainer = styled.div`
     }
 
     #ButtonsContainer {
-      width: 70%;
+      width: 90%;
     }
   }
 
@@ -337,7 +337,7 @@ const HomeContainer = styled.div`
     }
 
     #ButtonsContainer {
-      width: 80%;
+      width: 95%;
     }
 
     #ButtonsContainer a {
@@ -391,7 +391,7 @@ const HomeContainer = styled.div`
     }
 
     #ButtonsContainer {
-      width: 80%;
+      width: 95%;
     }
 
     #ButtonsContainer a {
@@ -458,7 +458,7 @@ const HomeContainer = styled.div`
     }
 
     #ButtonsContainer {
-      width: 80%;
+      width: 95%;
     }
 
     #ButtonsContainer a {
@@ -527,14 +527,14 @@ const HomeContainer = styled.div`
     }
 
     #ButtonsContainer {
-      width: 90%;
+      width: 100%;
     }
 
     #ButtonsContainer a {
       min-height: 32.2px !important;
       justify-content: center;
-      padding: 0% 1.4% 0% 1.4% !important;
-      margin-right: 2% !important;
+      padding: 0% 1% 0% 1% !important;
+      margin-right: 1% !important;
     }
 
     #ButtonsContainer a img {
@@ -591,7 +591,7 @@ const HomeContainer = styled.div`
 
     /* Links Buttons */
     #ButtonsContainer {
-      width: 85%;
+      width: 100%;
     }
 
     #ButtonsContainer a {

@@ -8,7 +8,7 @@ function LinkButton({ link, logo, alt, platform, ...props }) {
     transition: "0.2s all",
     cursor: "pointer",
     display: "flex",
-    margin: "2% 3% 1% 0%",
+    margin: "2% 2% 1% 0%",
     padding: "0% 2.6% 0% 2.6%",
     borderRadius: "200px 200px 200px 200px",
     mozBorderRadius: "200px 200px 200px 200px",

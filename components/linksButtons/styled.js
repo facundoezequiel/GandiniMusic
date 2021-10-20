@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const ImageLogo = styled.img`
-    display: block;
+  display: block;
 `;
 
 export { ImageLogo };
