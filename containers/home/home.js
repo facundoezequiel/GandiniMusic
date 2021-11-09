@@ -163,7 +163,7 @@ function Home() {
           <div id="playerFlyerContainer">
             <div id="playerContainer">
               {/* YouTube Player */}
-              <MediaPlayer link="https://youtu.be/E4VrLiTozkM" />
+              <MediaPlayer link="https://youtu.be/hwaKbAg2QdM" />
             </div>
           </div>
           {/* Links Section */}
