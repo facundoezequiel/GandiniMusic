@@ -42,12 +42,11 @@ function Home() {
             {({ index }) => (
               <>
                 <p>
-                  YA DISPONIBLE! GANDINI "KALI MIST" PRIMER SINGLE DEL ALBUM
+                  YA DISPONIBLE! GANDINI "MARS" SEGUNDO SINGLE DEL ALBUM
                   "OUTSIDER"
                 </p>
                 <p>
-                  OUT NOW! GANDINI "KALI MIST" FIRST SINGLE FROM "OUTSIDER"
-                  ALBUM
+                  OUT NOW! GANDINI "MARS" SECOND SINGLE FROM "OUTSIDER" ALBUM
                 </p>
               </>
             )}
