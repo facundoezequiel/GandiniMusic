@@ -252,6 +252,12 @@ const HomeContainer = styled.div`
   #applemusic:hover {
     background-color: #d50117 !important;
   }
+  #youtubemusic:hover {
+    background-color: #ff0000 !important;
+  }
+  #deezer:hover {
+    background-color: #923bac !important;
+  }
 
   /* Footer */
   #footerContainer {
@@ -779,6 +785,12 @@ const HomeContainer = styled.div`
       background-color: black !important;
     }
     #applemusic:hover {
+      background-color: black !important;
+    }
+    #youtubemusic {
+      background-color: black !important;
+    }
+    #deezer {
       background-color: black !important;
     }
 

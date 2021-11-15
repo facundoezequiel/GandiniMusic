@@ -227,6 +227,20 @@ function Home() {
                 alt="Apple Music"
                 platform="applemusic"
               />
+              {/* You Tube Music */}
+              <LinkButton
+                link="https://music.youtube.com/channel/UCEFYmqTkEBfXmPf1qb750xg"
+                logo="Logos/YouTubeMusic.svg"
+                alt="You Tube Music"
+                platform="youtubemusic"
+              />
+              {/* Deezer */}
+              <LinkButton
+                link="https://www.deezer.com/us/artist/6293694?utm_campaign=clipboard-generic&utm_source=user_sharing&utm_medium=desktop&utm_content=artist-6293694&deferredFl=1"
+                logo="Logos/Deezer.svg"
+                alt="Deezer"
+                platform="deezer"
+              />
             </div>
           </div>
           {/* Footer */}
