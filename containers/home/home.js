@@ -26,7 +26,7 @@ function Home() {
         <div
           id="backgroundSection"
           style={{
-            backgroundImage: `url(${"/Images/BackgroundLeftOutsider.jpg"})`,
+            backgroundImage: `url(${"/Images/BackgroundLeftOutsiderColor.jpg"})`,
           }}
         >
           {/* Logo Gandini Center 
@@ -42,11 +42,14 @@ function Home() {
             {({ index }) => (
               <>
                 <p>
-                  YA DISPONIBLE! GANDINI "MARS" SEGUNDO SINGLE DEL ALBUM
-                  "OUTSIDER"
+                  "Outsider" (El Album) disponible desde el 15 de febrero en
+                  todas las plataformas digitales. Pre-sale en Beatport, Amazon
+                  y iTunes desde el 15 de enero.
                 </p>
                 <p>
-                  OUT NOW! GANDINI "MARS" SECOND SINGLE FROM "OUTSIDER" ALBUM
+                  "Outsider" (The Album) available from february 15th on all
+                  digital platforms. Pre-sale on Beatport, Amazon and iTunes
+                  from January 15th.
                 </p>
               </>
             )}
@@ -260,7 +263,7 @@ function Home() {
             {/* Copyright */}
             <NextLink href="https://www.youtube.com/watch?v=pnPfgjTxIZU">
               <a target="_blank" id="copyright">
-                GANDINI MUSIC 2021 ©
+                GANDINI MUSIC 2022 ©
               </a>
             </NextLink>
           </div>
