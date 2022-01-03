@@ -48,8 +48,8 @@ function Home() {
                 </p>
                 <p>
                   "Outsider" (The Album) available from february 15th on all
-                  digital platforms. Pre-sale on Beatport, Amazon and iTunes
-                  from January 15th.
+                  digital stores. Pre-sale on Beatport, Amazon and iTunes from
+                  January 15th.
                 </p>
               </>
             )}
