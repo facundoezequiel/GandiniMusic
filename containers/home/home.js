@@ -42,14 +42,11 @@ function Home() {
             {({ index }) => (
               <>
                 <p>
-                  "Outsider" (El Album) disponible desde el 15 de febrero en
-                  todas las plataformas digitales. Pre-sale en Beatport, Amazon
-                  y iTunes desde el 15 de enero.
+                  A LA VENTA AHORA! EL NUEVO ALBUM DE GANDINI "OUTSIDER"
+                  DISPONIBLE EN TODAS LAS PLATAFORMAS DIGITALES
                 </p>
                 <p>
-                  "Outsider" (The Album) available from february 15th on all
-                  digital stores. Pre-sale on Beatport, Amazon and iTunes from
-                  January 15th.
+                  OUT NOW! GANDINI'S NEW ALBUM "OUTSIDER" IN ALL DIGITAL STORES
                 </p>
               </>
             )}
@@ -165,7 +162,7 @@ function Home() {
           <div id="playerFlyerContainer">
             <div id="playerContainer">
               {/* YouTube Player */}
-              <MediaPlayer link="https://youtu.be/hwaKbAg2QdM" />
+              <MediaPlayer link="https://youtu.be/XBZbl6bbZzs" />
             </div>
           </div>
           {/* Links Section */}

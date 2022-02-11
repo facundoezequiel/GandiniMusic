@@ -77,8 +77,8 @@ const HomeContainer = styled.div`
 
   .ticker__element {
     height: 100% !important;
-    max-width: 3000px;
-    min-width: 3000px;
+    max-width: 1700px;
+    min-width: 1700px;
     display: flex;
     align-content: center;
     align-items: center;
@@ -492,8 +492,8 @@ const HomeContainer = styled.div`
   @media (max-width: ${breakpoints.monitorEstandar}) {
     /* News */
     .ticker__element {
-      max-width: 2500px;
-      min-width: 2500px;
+      max-width: 1700px;
+      min-width: 1700px;
     }
 
     .ticker__element p {
@@ -646,8 +646,8 @@ const HomeContainer = styled.div`
 
     /* News */
     .ticker__element {
-      max-width: 3400px;
-      min-width: 3400px;
+      max-width: 2000px;
+      min-width: 2000px;
     }
 
     .ticker__element p {
@@ -846,8 +846,8 @@ const HomeContainer = styled.div`
     }
 
     .ticker__element {
-      max-width: 3000px;
-      min-width: 3000px;
+      max-width: 1700px;
+      min-width: 1700px;
     }
 
     .ticker__element p {
