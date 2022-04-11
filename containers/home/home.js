@@ -86,10 +86,7 @@ function Home() {
               <h1>
                 CRISTIAN GANDINI <span>AR</span>
               </h1>
-              <p>
-                DJ / Productor / Editor / Remixer / Radio Host / Ableton Teacher
-                / Label Manager
-              </p>
+              <p>Music Producer / Editor / Ableton Teacher</p>
               {/* Social Media Desktop*/}
               <div id="socialMediaContainer">
                 {/* Instagram */}
