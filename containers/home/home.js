@@ -37,6 +37,7 @@ function Home() {
             className="animate__animated animate__fadeIn"
           /> */}
         </div>
+        {/*
         <div id="newsSection">
           <Ticker>
             {({ index }) => (
@@ -51,7 +52,6 @@ function Home() {
               </>
             )}
           </Ticker>
-          {/*
           <ReactTyped
             strings={[
               "ME ENCUENTRO TRABAJANDO EN LA PRODUCCIÓN DE MI SEGUNDO ÁLBUM DE ESTUDIO",
@@ -64,8 +64,8 @@ function Home() {
             loop
             smartBackspace
           />
-          */}
         </div>
+      */}
       </section>
       {/* RIGHT ZONE */}
       <section

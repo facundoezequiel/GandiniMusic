@@ -46,7 +46,7 @@ const HomeContainer = styled.div`
 
   #backgroundSection {
     width: 100%;
-    height: 94%;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
