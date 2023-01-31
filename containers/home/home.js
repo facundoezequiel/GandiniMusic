@@ -86,7 +86,7 @@ function Home() {
               <h1>
                 CRISTIAN GANDINI <span>AR</span>
               </h1>
-              <p>Music Producer / Editor / Ableton Teacher</p>
+              <p>DJ / Music Producer / Editor / Ableton Teacher</p>
               {/* Social Media Desktop*/}
               <div id="socialMediaContainer">
                 {/* Instagram */}
@@ -257,7 +257,7 @@ function Home() {
             {/* Copyright */}
             <NextLink href="https://www.youtube.com/watch?v=pnPfgjTxIZU">
               <a target="_blank" id="copyright">
-                GANDINI MUSIC 2022 ©
+                GANDINI MUSIC 2023 ©
               </a>
             </NextLink>
           </div>
